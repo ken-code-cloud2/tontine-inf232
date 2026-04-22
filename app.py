@@ -16,6 +16,7 @@ db = get_db()
 collection = db[COLLECTION_NAME]
 
 st.title("🏦 Système de Tontine - Enrôlement")
+st.caption("Développé par : KENNE FABREL - Matricule : 23V2570") # Ajoute cette ligne
 st.markdown("Complétez le formulaire pour soumettre vos informations.")
 
 # --- FORMULAIRE DE COLLECTE ---
